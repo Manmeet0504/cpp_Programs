@@ -1,6 +1,6 @@
 # Appending an element in an array
 
-**Description** This program shows appending an element in an array using structure.
+**Description :** This program shows appending an element in an array using structure.
 
 **Example**
 

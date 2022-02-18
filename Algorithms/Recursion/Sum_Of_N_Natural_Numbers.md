@@ -1,6 +1,6 @@
 # Finding sum of N natural numbers using recursion
 
-**Description** This program shows sum of N natural numbers using recursion.
+**Description :** This program shows sum of N natural numbers using recursion.
 
 **Example**
 

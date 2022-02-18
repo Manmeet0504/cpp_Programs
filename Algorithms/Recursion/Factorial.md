@@ -1,6 +1,6 @@
 # Finding factorial using recursion
 
-**Description** This program shows factorial using recursion.
+**Description :** This program shows factorial using recursion.
 
 **Example**
 
