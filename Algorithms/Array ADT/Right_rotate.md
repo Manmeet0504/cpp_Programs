@@ -1,6 +1,6 @@
-# Right Shift
+# Right Rotate
 
-**Description :** This program shows right shift in an array.
+**Description :** This program shows right rotate in an array.
 
 **Example**
 
@@ -20,14 +20,15 @@ void display(A arr)
 	}
 	cout<<endl;
 }
-void rightShift(A *arr)
+void rightRotate(A *arr)
 {
-	int i;
+	int i,temp;
+	temp=arr->a[arr->len-1];
 	for(i=arr->len;i>0;i--)
 	{
 		arr->a[i]=arr->a[i-1];
 	}
-	arr->a[0]=0;
+	arr->a[0]=temp;
 }
 
 int main()
@@ -37,9 +38,9 @@ int main()
 	cout<<"Elements of array are:-"<<endl;
 	display(arr);
 	cout<<"After left shift"<<endl;
-	rightShift(&arr);
+	rightRotate(&arr);
 	display(arr);
 }
 ```
 
-**Run Code[](https://rextester.com/FSRUP45227)**
+**Run Code[](https://rextester.com/LBLVW51472)**
